@@ -1,0 +1,23 @@
+{
+  "name": "iplms",
+  "version": "1.0.0",
+  "description": "An IP/browser fingerprint logging microservice",
+  "main": "index.js",
+  "scripts": {
+    "dev": "micro-dev",
+    "start": "micro -l tcp://0.0.0.0:3452",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "micro": "^9.3.4",
+    "micro-cors": "^0.1.1",
+    "mongoose": "^5.8.1"
+  }
+}

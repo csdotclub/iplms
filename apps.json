@@ -1,0 +1,9 @@
+{
+    "apps": [
+      {
+        "name": "iplms",
+        "script": "npm",
+        "args": "start"
+      }
+    ]
+  }
